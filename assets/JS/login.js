@@ -152,7 +152,7 @@ function escuro() {
     }
 
     for (let i = 0; i < paragrafos.length; i++) {
-        paragrafos[i].style.color = "#ffffff";
+        paragrafos[i].style.color = "#000";
     }
 
     for (let i = 0; i < inputs.length; i++) {
@@ -162,7 +162,7 @@ function escuro() {
     }
 
     for (let i = 0; i < links.length; i++) {
-        links[i].style.color = "#ffffff";
+        links[i].style.color = "#fff";
     }
 
     if (botaoSubmit) {

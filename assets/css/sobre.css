@@ -167,6 +167,7 @@ font-weight: bold;;
     justify-content: center;
     margin-top: 30px;
 }
+
 @media (max-width: 1600px){
   
     .conteudos p {

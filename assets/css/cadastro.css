@@ -1,4 +1,4 @@
-
+@import url(main.css);
 //Pagina Cadastro
 .container_cadastro {
     min-height: calc(100vh - 100px);

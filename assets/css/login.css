@@ -15,7 +15,6 @@
     margin-bottom: 90px;
     color: #111;
     margin-right:37px;
-    
 }
 
 .section_login {
@@ -83,19 +82,8 @@
     text-decoration: underline;
 }
 
-/* .body__login{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    margin: 0;
-}
 
-.footer__login{
-    margin-top: auto;
-} */
-
-/* Media Quares */
+/* Media Queries */
 @media (max-width: 480px) {
     .container_login,
     .container_cadastro {

@@ -1,5 +1,4 @@
-@import url(main.css);
-//Pagina Cadastro
+/* Pagina Cadastro */
 .container_cadastro {
     min-height: calc(100vh - 100px);
     display: flex;
@@ -82,7 +81,7 @@
     text-decoration: underline;
 }
 
-//Media Quares
+/* Media Quares */
 @media (max-width: 768px) {
     .container_login,
     .container_cadastro {
@@ -187,88 +186,4 @@
     .campo_cadastro input {
         font-size: 0.85rem;
     }
-}
-let heade = document.getElementsByTagName("header")[0];
-let fundo = document.getElementsByTagName("body")[0];
-let titulo = document.getElementsByTagName("h1")[0];
-let fieldset = document.getElementsByTagName("fieldset")[0];
-let labels = document.getElementsByTagName("label");
-let paragrafos = document.getElementsByTagName("p");
-let inputs = document.getElementsByTagName("input");
-let links = document.getElementsByTagName("a");
-let botaoSubmit = document.querySelector("button[type='submit']");
-
-function escuro() {
-    fundo.classList.add("body__escuro");
-    heade.classList.add("cabecalho__escuro");
-
-    if (titulo) {
-        titulo.classList.add("titulo__escuro");
-    }
-
-    if (fieldset) {
-        fieldset.style.backgroundColor = "#003033cc";
-        fieldset.style.borderColor = "#ffffff";
-    }
-
-    for (let i = 0; i < labels.length; i++) {
-        labels[i].style.color = "#ffffff";
-    }
-
-    for (let i = 0; i < paragrafos.length; i++) {
-        paragrafos[i].style.color = "#ffffff";
-    }
-
-    for (let i = 0; i < inputs.length; i++) {
-        inputs[i].style.backgroundColor = "#001f22";
-        inputs[i].style.color = "#ffffff";
-        inputs[i].style.border = "1px solid #ffffff";
-    }
-
-    for (let i = 0; i < links.length; i++) {
-        links[i].style.color = "#ffffff";
-    }
-
-    if (botaoSubmit) {
-        botaoSubmit.style.backgroundColor = "#ffffff";
-        botaoSubmit.style.color = "#001f22";
-    }
-
-    localStorage.setItem("tema", "escuro");
-}
-
-function claro() {
-    localStorage.setItem("tema", "claro");
-    window.location.reload();
-}
-
-let botaoEscuro = document.getElementById("noite");
-
-if (botaoEscuro) {
-    botaoEscuro.addEventListener("click", escuro);
-}
-
-let botaoClaro = document.getElementById("luz");
-
-if (botaoClaro) {
-    botaoClaro.addEventListener("click", claro);
-}
-
-if (localStorage.getItem("tema") === "escuro") {
-    escuro();
-}
-
-const botaoMenu = document.getElementById("menu-toggle");
-const menu = document.querySelector(".menu");
-
-if (botaoMenu && menu) {
-    botaoMenu.addEventListener("click", () => {
-        menu.classList.toggle("ativo");
-
-        if (menu.classList.contains("ativo")) {
-            botaoMenu.textContent = "✖";
-        } else {
-            botaoMenu.textContent = "☰";
-        }
-    });
 }

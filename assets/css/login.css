@@ -1,6 +1,5 @@
-@import url(main.css);
 
-/* //Pagina Login */
+/* Pagina Login */
 .container_login {
     margin-top:60px;
     display: flex;
@@ -16,7 +15,6 @@
     margin-bottom: 90px;
     color: #111;
     margin-right:37px;
-    
 }
 
 .body-login{
@@ -158,3 +156,4 @@
         font-size: 0.85rem;
     }
 }
+

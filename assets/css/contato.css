@@ -1,14 +1,13 @@
-@import url(main.css);
 
 /* =========================
-   ESTILO GERAL DA PÁGINA
+  ESTILO GERAL DA PÁGINA
 ========================= */
 .contato-soulup {
   color: #000000;
 }
 
 /* =========================
-   HERO / TOPO DA PÁGINA
+  HERO / TOPO DA PÁGINA
 ========================= */
 .contato-hero {
   min-height: 330px;
@@ -34,24 +33,20 @@
 /* Texto abaixo do título */
 .contato-hero p {
   font-size: 20px;
-  color: #ffffff;
+  color: #242121;
   max-width: px;
   
 }
 
 /* =========================
-   BLOCOS/SEÇÕES DA PÁGINA
+  BLOCOS/SEÇÕES DA PÁGINA
 ========================= */
 .contato-bloco {
   padding: 65px 8%;
   text-align: center;
 }
 
-/* Fundo gradiente da seção */
-/* .contato-bloco--cinza {
-  /* background: linear-gradient(180deg,#007c85,  #0c8ce1); */
 
- */
 /* Título das seções */
 .contato-bloco h2 {
   font-size: 30px;
@@ -60,7 +55,7 @@
 }
 
 /* =========================
-   GRID DOS CARDS
+  GRID DOS CARDS
 ========================= */
 .contato-grid {
   max-width: 1180px;
@@ -68,7 +63,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-   
 }
 
 /* Versão menor da grid */
@@ -77,7 +71,7 @@
 }
 
 /* =========================
-   CARD / CAIXA DE CONTATO
+  CARD / CAIXA DE CONTATO
 ========================= */
 .contato-caixa {
   min-height: 210px;
@@ -131,7 +125,7 @@
 }
 
 /* =========================
-   RESPONSIVIDADE TABLET
+  RESPONSIVIDADE TABLET
 ========================= */
 @media (max-width: 950px) {
   
@@ -168,7 +162,7 @@
 }}
 
 /* =========================
-   RESPONSIVIDADE CELULAR
+  RESPONSIVIDADE CELULAR
 ========================= */
 @media (max-width: 620px) {
 
@@ -188,7 +182,7 @@
   }
 }
 /* =========================
-   MODO ESCURO
+  MODO ESCURO
 ========================= */
 
 .body__escuro{

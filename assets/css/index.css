@@ -1,16 +1,15 @@
-@import url(main.css);
 
 /* =========================
    SEÇÃO TÍTULO PRINCIPAL
 ========================= */
 .titulo{
-  min-height: 330px; 
-  padding: 70px 8%;
-  display: flex;
-  flex-direction: column; 
-  justify-content: center;
-  align-items: center; 
-  text-align: center; 
+    min-height: 330px; 
+    padding: 70px 8%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
 }
 /* botão hamburguer */
 .menu-toggle {
@@ -23,25 +22,25 @@
 
 /* Título principal */
 .titulo h1 {
-  font-size: 56px; 
-  margin-bottom: 16px; 
+    font-size: 56px; 
+    margin-bottom: 16px; 
 }
 
 /* Texto no modo escuro */
 .titulo__escuro {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 /* =========================
    SEÇÃO CHAMADA
 ========================= */
 .chamada{
-   width: auto; 
-   height: 50vh; 
-   background-repeat: no-repeat; 
-   display: flex; 
-   align-items: start; 
-   justify-content: center;
+    width: auto; 
+    height: 50vh; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    align-items: start; 
+    justify-content: center;
 }
 
 /* Parágrafo no modo escuro */
@@ -51,7 +50,7 @@
 
 /* Cursor de clique nos botões */
 .botoes p {
- cursor: pointer;
+    cursor: pointer;
 }
 
 /* Caixa de texto principal */

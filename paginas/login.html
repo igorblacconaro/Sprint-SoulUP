@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lexend+Deca:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <script src="../assets/JS/login.js" defer></script>
+    <script src="../assets/JS/geral.js" defer></script>
+    <title>Soul Up - Login</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <img src="../assets/imagens/img-01-logo.svg" alt="Imagem da logo">
+
+        <button class="menu-toggle" id="menu-toggle">
+            ☰
+        </button>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./solucao.html">Solução</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./integrantes.html">Integrantes</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./faq.html">FAQ</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="container_login">
+        <h1 class="titulo_login">Login</h1>
+
+        <section class="section_login">
+
+            <form id="form_login" action="#" method="post">
+                <fieldset class="campo_login">
+
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div>
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <button type="submit">Entrar</button>
+
+                    <p>
+                        Ainda não tem uma conta?
+                        <a class="botao_cadastro" href="../paginas/cadastro.html">Cadastre-se</a>
+                    </p>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+    </main>
+    <div class="botoes">
+        <p id="luz">🔦</p>
+        <p id="noite">🌙</p>
+    </div>
+
+</body>
+<footer>
+    <p>&copy;2026 SoulUp. Todos os direitos reservados.</p>
+</footer>
+
+</html>

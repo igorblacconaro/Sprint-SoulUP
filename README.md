@@ -40,7 +40,9 @@ A plataforma oferece recursos que incentivam o desenvolvimento pessoal e profiss
 ┃ ┣ 📄 sobre.html
 ┃ ┣ 📄 integrantes.html
 ┃ ┣ 📄 contato.html
-┃ ┗ 📄 faq.html
+┃ ┣ 📄 faq.html
+┃ ┣ 📄 cadastro.html
+┃ ┗ 📄 login.html
 ┣ 📄 index.html
 ┗ 📄 README.md
 ```
@@ -57,6 +59,7 @@ A plataforma oferece recursos que incentivam o desenvolvimento pessoal e profiss
 - ❓ FAQ (Perguntas Frequentes)
 - 🌙 Modo escuro/claro
 - 📱 Layout responsivo
+- Cadastro/Login
 
 ---
 

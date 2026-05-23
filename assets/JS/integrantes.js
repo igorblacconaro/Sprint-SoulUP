@@ -6,6 +6,8 @@ let titulo = document.querySelector(".titulo__integrantes")
 
 let cards = document.querySelectorAll(".hero__conteudo")
 
+// let links = document.querySelectorAll(".hero__links")
+
 
 function escuro(){
 
@@ -14,6 +16,8 @@ function escuro(){
     header.classList.add("cabecalho__escuro")
 
     titulo.classList.add("titulo__escuro")
+    
+    // links.classList.add("link__escuro")
 
     cards.forEach((card)=>{
         card.classList.add("card__escuro")

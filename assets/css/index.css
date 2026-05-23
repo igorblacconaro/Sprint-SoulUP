@@ -2,13 +2,13 @@
    SEÇÃO TÍTULO PRINCIPAL
 ========================= */
 .titulo{
-  min-height: 330px; 
-  padding: 70px 8%;
-  display: flex;
-  flex-direction: column; 
-  justify-content: center;
-  align-items: center; 
-  text-align: center; 
+    min-height: 330px;
+    padding: 70px 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 /* botão hamburguer */
 .menu-toggle {
@@ -21,25 +21,25 @@
 
 /* Título principal */
 .titulo h1 {
-  font-size: 56px; 
-  margin-bottom: 16px; 
+    font-size: 56px;
+    margin-bottom: 16px;
 }
 
 /* Texto no modo escuro */
 .titulo__escuro {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 /* =========================
    SEÇÃO CHAMADA
 ========================= */
 .chamada{
-   width: auto; 
-   height: 50vh; 
-   background-repeat: no-repeat; 
-   display: flex; 
-   align-items: start; 
-   justify-content: center;
+    width: auto;
+    height: 50vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: start;
+    justify-content: center;
 }
 
 /* Parágrafo no modo escuro */
@@ -49,21 +49,21 @@
 
 /* Cursor de clique nos botões */
 .botoes p {
- cursor: pointer;
+    cursor: pointer;
 }
 
 /* Caixa de texto principal */
 .chamada__txt {
-    width: 65vw; 
-    font-size: 2.5rem; 
-    padding: 50px; 
-    background-color: #12c9d6cc; 
-    border-radius: 20px; 
+    width: 65vw;
+    font-size: 2.5rem;
+    padding: 50px;
+    background-color: #12c9d6cc;
+    border-radius: 20px;
     border-color: #0a3fec;
-    border: 2px dashed #0a3fec; 
+    border: 2px dashed #0a3fec;
     margin-left: 50px;
     margin-top:2rem;
-    box-shadow: 1rem 1rem 0.5rem; 
+    box-shadow: 1rem 1rem 0.5rem;
 }
 
 /* Caixa de texto no modo escuro */
@@ -102,22 +102,26 @@
 
 /* Estrutura geral do card */
 .card{
-    min-width: 280px; 
-    max-width: 420px; 
-    min-height: 47rem; 
-    max-height: 500px; 
+    min-width: 280px;
+    max-width: 420px;
+    min-height: 47rem;
+    max-height: 500px;
     border: 2px solid blue;
     padding: .5rem;
     background-color: #b1f8f6;
     border-radius: 20px;
     text-align: center;
-    transition: .2s; 
+    transition: .2s;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+  .card:hover{
+        transform: translateY(-6px);
+        box-shadow: 0 18px 35px rgba(1, 12, 15, 0.8);
+    }
 /* Imagens dentro do card */
 .card img{
     width: 80%;
@@ -132,7 +136,7 @@
 ========================= */
 
 /* Container geral */
-.conteudo{
+.conteudo {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -140,14 +144,14 @@
 }
 
 /* Primeira linha de cards */
-.linha1{
+.linha1 {
     display: flex;
     justify-content: space-around;
     margin-top: 10rem;
 }
 
 /* Segunda linha de cards */
-.linha2{
+.linha2 {
     display: flex;
     justify-content: space-around;
 }
@@ -175,7 +179,7 @@
 
     .linha1,
     .linha2 {
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
         gap: 2rem;
         justify-content: center;
     }
@@ -279,7 +283,7 @@
         font-size: 2rem;
     }
 
-    .header_card img{
+    .header_card img {
         width: 40px;
     }
 
@@ -290,24 +294,24 @@
     }
 
     .menu-toggle {
-    display: block;
-}
+        display: block;
+    }
 
-.menu {
-    display: none;
-    width: 100%;
-}
+    .menu {
+        display: none;
+        width: 100%;
+    }
 
-.menu.ativo {
-    display: block;
-}
+    .menu.ativo {
+        display: block;
+    }
 
-.menu ul {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem 0;
-}
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
 }
 
 /* Celulares menores */
